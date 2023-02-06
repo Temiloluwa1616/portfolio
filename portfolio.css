@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0; 
+  }
+  body{
+      padding: 0px 90px
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      padding:20px 0px;
+  }
+  ul{
+      display: flex;
+      gap: 40px;
+      list-style-type: none;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  #hero{
+      display: flex;
+      gap: 20%;
+      background-color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+      
+  }
+  #red-font{
+      color:brown
+  }
+  .circle{
+      position: relative;
+      width:300px;
+      height:300px;
+      border-radius: 50%;
+      background: #EE5D7C;
+  
+  }
+  #heroimg{
+      position: absolute;
+      top: 32px;
+      left: 40px;
+      
+      
+  }
+  
+  #hireme{
+      
+      width: 25%;
+      border-radius: 20px;
+      padding: 6px;
+      font-size: x-small;
+      font-weight: bold;
+      color: white;
+      background: purple;
+      }
+      #arrowbtn{
+          display: inline;
+          border-radius: 20px;
+          padding: 5px;
+      }
+  #about-me{
+      display: flex;
+      height: 300px;
+      align-items: center;
+      padding: 50px;
+      justify-content: space-around;
+      font-size: larger;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      -webkit-text-fill-color: white;
+      background-color: #EE5D7C;
+  }
+  .Bolder{
+      font-size: larger;
+  }
+  #wcids{
+      text-align: center;
+  }
+  #skills{
+      display: flex;
+      gap: 16px;
+      padding: 60px;
+  }
+  #pinky, #card, #card2{
+      
+      padding: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border: 1px solid black;
+  }
+  .contact{
+      padding: 70px;
+      text-align: center;
+      background-color: #EE5D7C;
+      -webkit-text-fill-color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+  
+  
